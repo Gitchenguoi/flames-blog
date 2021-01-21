@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on 烛火的博客</title>
+    <link>http://www.apodidae.info:8383/about/</link>
+    <description>Recent content in Abouts on 烛火的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.apodidae.info:8383/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>介绍</title>
+      <link>http://www.apodidae.info:8383/about/about/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.apodidae.info:8383/about/about/</guid>
+      <description>烛火是一个在老师带领下初入电气控制及单片机领域的小团体。在此技术领域我们才迈出了第一步。这个博客没有高大上的技术，却记录了我们在技术提升道路上的点滴。希望这样一个追寻技术进步的记录能鼓舞到更多的人在艰难的技术提升道路上勇敢的走下去。 使用到的代码来自:
+ https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  如果想了解更多 GitHub.</description>
+    </item>
+    
+  </channel>
+</rss>
