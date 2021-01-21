@@ -1,0 +1,66 @@
+---
+label: base
+hide_body: false
+fields:
+- name: author
+  type: text
+  config:
+    required: false
+  label: 作者
+  description: 博文的作者
+  default: francis
+- name: data
+  type: datetime
+  description: 输入博客发表撰写时间
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: 时间
+- name: title
+  type: text
+  config:
+    required: false
+  label: 标题
+  description: 博客标题
+- name: type
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - post
+    - posts
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: 类型
+  description: 文章的类型
+- name: weight
+  type: number
+  label: 宽度
+  description: 输入宽度
+  default: 10
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: series
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - 单片机
+    - 制板
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: 系列
+  description: 博文的系列

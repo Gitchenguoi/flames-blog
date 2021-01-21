@@ -1,0 +1,98 @@
+baseURL = "http://www.apodidae.info:8383/"
+defaultContentLanguage = "en"
+#disqusShortname = "yourdiscussshortname"
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = "en"
+paginate = 12
+theme = "KeepIt"
+title = "烛火的博客"
+[Permalinks]
+posts = "/:year/:filename/"
+[author]
+name = "Francis"
+[blackfriday]
+hrefTargetBlank = true
+nofollowLinks = true
+noreferrerLinks = true
+[[menu.main]]
+name = "介绍"
+url = "/about/"
+weight = 3
+[[menu.main]]
+name = "分类"
+url = "/categories/"
+weight = 2
+[[menu.main]]
+name = "博文"
+url = "/posts/"
+weight = 1
+[params]
+author = "Francis"
+avatar = "/images/me/avatar.jpeg"
+baidu_verification = ""
+bing_verification = ""
+cdn_url = ""
+description = ""
+google_verification = ""
+home_mode = ""
+keywords = ""
+license = "Released under <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\">CC BY-NC 4.0</a>"
+pinterest_verification = ""
+since = 2012
+socialShare = true
+subtitle = "才入单片机及电气控制领域团体的点滴记录"
+yandex_verification = ""
+[params.gitalk]
+clientId = ""
+clientSecret = ""
+owner = ""
+repo = ""
+[params.gitment]
+clientId = ""
+clientSecret = ""
+owner = ""
+repo = ""
+[params.gravatar]
+[params.image]
+height = 600
+url = "cover.png"
+width = 800
+[params.logo]
+height = 40
+url = "logo.png"
+width = 127
+[params.publisher]
+name = "Fastbyte01"
+[params.publisher.logo]
+height = 40
+url = "logo.png"
+width = 127
+[params.share]
+Facebook = true
+Linkedin = true
+Twitter = true
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+[params.social]
+Facebook = "xxxx"
+GitHub = "xxxx"
+Linkedin = "xxxx"
+Twitter = "xxxx"
+[params.utterances]
+owner = ""
+repo = ""
+[params.valine]
+appId = "r1jcGVLn3th5HVOr026xvgFz-gzGzoHsz"
+appKey = "VIKiobrzlx8wyjzES6i2oEvn"
+avatar = "mm"
+enable = true
+language = "zh-CN"
+notify = false
+placeholder = "说点什么吧 ..."
+verify = false
+visitor = true
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
